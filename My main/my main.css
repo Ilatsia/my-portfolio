@@ -1,0 +1,113 @@
+body{
+ background-color: aquamarine;
+ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover{
+    color:none;
+    background-color:cadetblue;
+}
+nav{
+    background-color: azure;
+    font-variant: normal;
+    margin:0%;
+    padding:0%;
+    opacity:1;
+    line-height: 3;
+}
+.details{
+
+    margin: 40px auto 0 auto;
+    padding:20px 50px;
+    display:flex;
+}
+.picture{
+    float:top-right;
+}
+.intro{
+    border-style: hidden;
+    flex:1;
+}
+.new{
+
+    margin: 40px auto 0 auto;
+    padding:20px 50px;
+    display:flex;
+}
+.container{
+    flex: 1;
+}
+.story{
+    border-style: hidden;
+    flex:1;
+}
+.photo{
+    float:right;
+}
+.form{
+    
+    border-style: hidden;
+    display: flex;
+
+}
+.email{
+    flex:1;
+}
+
+
+.project{
+    margin-block-end: 0%;
+    padding-bottom: 0%;
+    display:flex;
+    flex:space-between;
+}
+.product{
+    display: flex;
+    align-items: left;
+}
+.present{
+    flex: 1;
+}
+.pic{
+    float:right;
+}
+.project1{
+    
+    border-style: hidden;
+    flex: 30%;
+}
+.project2{
+    border-style: hidden;
+    flex: 30%;
+}
+.project3{
+    border-style: hidden;
+    flex: 30%;
+}
+.main{
+    display: flex;
+    align-items:space-between;
+}
+.blog{
+    border-style: dashed;
+    flex:60%;
+}
+.favorite{
+    flex:30%;
+}
+footer{
+    border: 10px;
+    border-style:hidden;
+    background-color:beige;
+    text-align: center;
+
+    bottom:0;
+    width:100%;
+}
+footer ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+}
